@@ -1,0 +1,722 @@
+%!PS-Adobe-2.0 
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.0.0.783 (R2012b). Operating System: Microsoft Windows 7.
+%%Title: .\sss.ps
+%%CreationDate: 01/25/2021  18:47:23
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/ISOLatin1Encoding where {pop /WindowsLatin1Encoding 256 array bdef
+ISOLatin1Encoding WindowsLatin1Encoding copy pop
+/.notdef/.notdef/quotesinglbase/florin/quotedblbase/ellipsis/dagger
+/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef/.notdef
+/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis WindowsLatin1Encoding 128 32 getinterval astore pop}
+{/WindowsLatin1Encoding StandardEncoding bdef} ifelse
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup string
+  currentfile exch readhexstring pop
+  /bmap xdef pop pop} bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  {bmap} image gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:   100   227   533   595
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0204 7344 csm
+
+ 1002   202  5195  4413 MR c np
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 6913 5185 PR
+6 w
+gs 1104 535 673 673 MR c np
+gs np 1104 535 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 1104 535] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000050E2F25000000020FF9191F220000020A10061FF3000000020E2FF710000000000B2FFE21000
+0000613061FF10000000D2B2A1F20000000091FFFF710000
+gr
+gr
+
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1027  386 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1093  446 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1259  386 mt 
+(=3, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1529  446 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1721  386 mt 
+(=3) s
+gs 2528 535 673 673 MR c np
+gs np 2529 535 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 2529 535] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000071D2816100000000FFF2FFE2A1000040FFD2100000000010A1FF9100000000000050D2000000
+00000050F2000000000081B281000000000091FF30000000
+gr
+gr
+
+2451  386 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2517  446 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+2683  386 mt 
+(=5, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2953  446 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+3145  386 mt 
+(=5) s
+gs 3953 535 673 673 MR c np
+gs np 3954 535 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 3954 535] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000061FFFF9100000000E291C2B20000000010009161000000001061FFA161000000A1FFE2B25000
+000050F220000000000030D2000000000000718100000000
+gr
+gr
+
+3876  386 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+3942  446 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4108  386 mt 
+(=7, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+4378  446 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4570  386 mt 
+(=7) s
+gs 5378 535 673 673 MR c np
+gs np 5378 535 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 5378 535] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+0000B2D2C27100000020F24050FF40000000FF50D2B20000000071FFA1100000000081FF40000000
+0000F250B20000000030D240C20000000010B2FF81000000
+gr
+gr
+
+5301  386 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5367  446 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5533  386 mt 
+(=8, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5803  446 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5995  386 mt 
+(=8) s
+gs 1104 1671 672 672 MR c np
+gs np 1105 1671 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 1105 1671] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000020A1D2FF61000091FFE2C29120000050FF30000000000000A1E261100000000010D2FFB20000
+0000000081FF000000000020F2C20000000000D2FF200000
+gr
+gr
+
+1027 1522 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1093 1582 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1259 1522 mt 
+(=5, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1529 1582 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1721 1522 mt 
+(=5) s
+gs 2529 1671 672 672 MR c np
+gs np 2529 1671 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 2529 1671] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+00000081D2100000000061FFB21000000000C2C2000000000020FF61000000000000F2A191612000
+0020F2C2A1FFB200000081F2A1E2E20000000091D2C27100
+gr
+gr
+
+2452 1522 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2518 1582 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+2684 1522 mt 
+(=6, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2954 1582 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+3146 1522 mt 
+(=6) s
+gs 3954 1671 672 672 MR c np
+gs np 3954 1671 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 3954 1671] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000020D2FF8100000010D2FFA17100000050FF91000000000071FF71000000000091FFFFD2100000
+0050FF61E29100000000D2C2E2F20000000030C2FFB20000
+gr
+gr
+
+3877 1522 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+3943 1582 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4109 1522 mt 
+(=6, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+4379 1582 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4571 1522 mt 
+(=6) s
+gs 5378 1671 672 672 MR c np
+gs np 5379 1671 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 5379 1671] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000071FFFF7100000030FFFFFFB2000000106140FF71000000000091F2200000000010E281000000
+000071FF504010000000A1FFFFFF5000000071FFFF710000
+gr
+gr
+
+5301 1522 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5367 1582 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5533 1522 mt 
+(=2, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5803 1582 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5995 1522 mt 
+(=2) s
+gs 1104 2807 672 672 MR c np
+gs np 1105 2807 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 1105 2807] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000071C2FFFF71000000E2E2B2FF71000000200071FF3000000020B2F2FF40000000D2FFFFFF7100
+000040F2C2000000000061FF30000000000091F220000000
+gr
+gr
+
+1027 2658 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1093 2718 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1259 2658 mt 
+(=7, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1529 2718 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1721 2658 mt 
+(=7) s
+gs 2529 2807 672 672 MR c np
+gs np 2529 2807 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 2529 2807] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+0030F2FFFFFF40000010A181C2FF000000000000E2A100000050FFD2FFE291000030C2FFD2812000
+000091E2100000000020FF71000000000050D21000000000
+gr
+gr
+
+2452 2658 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2518 2718 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+2684 2658 mt 
+(=7, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2954 2718 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+3146 2658 mt 
+(=7) s
+gs 3954 2807 672 672 MR c np
+gs np 3954 2807 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 3954 2807] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000061FF610000000020FFE2F20000000091D200E230000000406110FF50000000000081FF300000
+000030FFE20020000000D2FFFFFFF200000071E2C2C2C210
+gr
+gr
+
+3877 2658 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+3943 2718 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4109 2658 mt 
+(=2, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+4379 2718 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4571 2658 mt 
+(=2) s
+gs 5378 2807 672 672 MR c np
+gs np 5379 2807 mt 0 671 rl 671 0 rl 0 -671 rl cp c np
+[671 0 0 671 5379 2807] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+0000D2FFFF5000000010A181FF610000000000A1E2000000000071FF61000000000030D2FF610000
+00000000A1F210000000205071FF71000000F2FFFFE22000
+gr
+gr
+
+5301 2658 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5367 2718 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5533 2658 mt 
+(=3, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5803 2718 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5995 2658 mt 
+(=3) s
+gs 1104 3942 673 673 MR c np
+gs np 1104 3942 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 1104 3942] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+0000A1FFE26100000000FF8161FF30000000915000D261000000000000E281000000000040FF2000
+00000000D2B2000000002091FFA161100000C2FFE2D2FF81
+gr
+gr
+
+1027 3793 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1093 3853 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1259 3793 mt 
+(=2, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+1529 3853 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+1721 3793 mt 
+(=2) s
+gs 2528 3942 673 673 MR c np
+gs np 2529 3942 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 2529 3942] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000040E2FF4000000000C28191C200000020B20000C2300000407100005081000061400000408100
+00409100006181000000E29161F22000000040FFF2500000
+gr
+gr
+
+2451 3793 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2517 3853 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+2683 3793 mt 
+(=0, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+2953 3853 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+3145 3793 mt 
+(=0) s
+gs 3953 3942 673 673 MR c np
+gs np 3954 3942 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 3954 3942] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000081E2FFFF00000000E2D2818100000020FF61000000000061FFD2FFD200000030FFFFC2FF7100
+0000401020E2610000001061FFB200000000B2F281100000
+gr
+gr
+
+3876 3793 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+3942 3853 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4108 3793 mt 
+(=5, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+4378 3853 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+4570 3793 mt 
+(=5) s
+gs 5378 3942 673 673 MR c np
+gs np 5378 3942 mt 0 672 rl 672 0 rl 0 -672 rl cp c np
+[672 0 0 672 5378 3942] cc
+/picstr 8 string def
+8 8 8 [8.000000 0 0 8.000000 0 0] L1i
+000000A1C2000000000091E2400000000000F230000000000020F220611000000020FFF2C2F24000
+0000FF500030E2000000C2A140B2E200000010B2E2C21000
+gr
+gr
+
+5301 3793 mt 
+(L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5367 3853 mt 
+(true) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5533 3793 mt 
+(=6, L) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 96 FMSR
+
+5803 3853 mt 
+(pred) s
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 120 FMSR
+
+5995 3793 mt 
+(=6) s
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%BoundingBox:   100   227   533   595
+%%Pages: 001
+%%EOF
